@@ -82,3 +82,4 @@ pip install -r requirements.txt
 
 # Run notebook
 jupyter notebook Sentiment_Embeddings_Project.ipynb
+```
