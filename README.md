@@ -1,4 +1,21 @@
-# Sentiment Classification Using Embeddings 🚀
+<p align="center">
+  <img src="images/Project_Banner.png" alt="Project Banner" width="80%" style="max-width: 1000px;"/>
+</p>
+
+<h1 align="center">🐦 Twitter Sentiment Analysis using MiniLM Embeddings 🚀</h1>
+
+<p align="center">
+  <a href="#">
+    <img src="https://img.shields.io/badge/Python-3.8%2B-blue" alt="Python">
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
+  </a>
+  <a href="https://github.com/m1n1v1rus/Sentiment-Embeddings/stargazers">
+    <img src="https://img.shields.io/github/stars/m1n1v1rus/Sentiment-Embeddings" alt="Stars">
+  </a>
+</p>
+
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/16x54MsCTOh3wqDIc3v9aS4fzghPs5xLd)
 
